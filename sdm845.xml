@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="malluos-devices/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="thegga-10" />
-  <project name="malluos-devices/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="thegga-10" />
-  <project name="malluos-devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="thegga-10" />
-  <project name="malluos-devices/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="thegga-10" />
-  <project name="malluos-devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="thegga-10" />
+  <project name="LineageOS/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="lineage-17.1" />
+  <project name="sdm845/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-17.1" />
 
 </manifest>
