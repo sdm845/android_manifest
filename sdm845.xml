@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="git"
+          fetch="https://github.com/" />
+  <remote name="gitl"
+          fetch="https://gitlab.com/" />
+
+        <project name="LineageOS/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="git" revision="lineage-18.1" />
+        <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="git" revision="lineage-18.1" />
+        <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="git" revision="lineage-18.1" />
+        <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="git" revision="lineage-18.1" />
+        <project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitl" revision="lineage-18.1" />
+
+        <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
+        <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
+        <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
+        <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+
+        <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="git" revision="lineage-18.1" />
+
+</manifest>

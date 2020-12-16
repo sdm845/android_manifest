@@ -46,25 +46,14 @@ function apply_patch {
 #################################################################
 
 ## Device Tree: eleven_m8916
-repopick -P device/motorola/msm8916-common -t 18_moto8916
+repopick -P device/xiaomi/sdm845-common 293847 294750 294751 294752 289129 291086 286933
+repopick -P device/xiaomi/beryllium -f 297168 275819
 
-## Bringup Hax (Disable LiveDisplay & mm-pp-daemon)
-#repopick 296163
+## QTI BT
+repopick -t eleven-qti-bt-stack -e 289296
 
-## eleven-ultralegacy-devices
-repopick -P system/core 292788
-
-## hardware/interfaces
-repopick 296611
-
-## hardware/qcom-caf/wlan
-repopick 287125
-
-## system/vold
-repopick -t eleven-vold
-
-## eleven-fde-crash-fix
-repopick -t eleven-fde-crash-fix
+## Safetynet
+repopick -P system/core -f 297167
 
 ## Snap
 cd packages/apps/Snap && git pull "https://github.com/LineageOS/android_packages_apps_Snap" refs/changes/11/294911/1 && cd $TOP
