@@ -55,9 +55,6 @@ repopick -t eleven-qti-bt-stack -e 289296
 ## Safetynet
 repopick -P system/core -f 297167
 
-## Snap
-cd packages/apps/Snap && git pull "https://github.com/LineageOS/android_packages_apps_Snap" refs/changes/40/298040/3 && cd $TOP
-
 #################################################################
 # PATCHES
 #
