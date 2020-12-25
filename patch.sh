@@ -46,7 +46,7 @@ function apply_patch {
 #################################################################
 
 ## Device Tree: eleven_m8916
-repopick -P device/xiaomi/sdm845-common 293847 294750 294751 294752 289129 291086 286933
+repopick -P device/xiaomi/sdm845-common 293847 294750 294751 294752 289129 291086 286933 298352 298362
 repopick -P device/xiaomi/beryllium -f 297168 275819
 
 ## QTI BT
